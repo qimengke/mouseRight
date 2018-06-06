@@ -9,7 +9,7 @@ callback：表示点击新建项的回调函数<br>
 js调用方法
 ------- 
 $('body').mouseRight({menu: [{<br> 
-    itemName: "添加",<br>
-    icon:"fa fa-plus",<br>
-    callback: function() {alert('我是添加')}<br>
+        itemName: "添加",<br>
+        icon:"fa fa-plus",<br>
+        callback: function() {alert('我是添加')}<br>
 }]});
